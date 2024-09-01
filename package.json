@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "cheerio": "^1.0.0",
+    "cli-progress": "^3.12.0",
+    "cli-table3": "^0.6.5",
+    "enquirer": "^2.4.1",
+    "got": "^14.4.2",
+    "inquirer": "^10.1.8",
+    "inquirer-table-input": "^0.0.3",
+    "terminal-image": "^3.0.0",
+    "webtorrent": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^22.5.1",
+    "@types/webtorrent": "^0.109.8",
+    "@types/bun": "latest"
+  },
+  "name": "rdcli",
+  "module": "src/main.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "bun run src/main.ts"
+  }
+}
